@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family:  'IBM Plex Sans Thai Looped', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000 ;
+  background-color:#fff;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+
+input,
+textarea,
+select {
+  font-family:  'IBM Plex Sans Thai Looped', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "IBM Plex Sans Thai Looped", Arial;
+  font-weight: 500;
+  color: var(--Gray);
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Thai Looped';
+  src: url('../src/components/assets/fonts/IBMPlexSansThaiLooped-Bold.woff2') format('woff2'),
+      url('../src/components/assets/fonts/IBMPlexSansThaiLooped-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai Looped';
+  src: url('../src/components/assets/fonts/IBMPlexSansThaiLooped-SemiBold.woff2') format('woff2'),
+      url('../src/components/assets/fonts/IBMPlexSansThaiLooped-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai Looped';
+  src: url('../src/components/assets/fonts/IBMPlexSansThaiLooped-Medium.woff2') format('woff2'),
+      url('../src/components/assets/fonts/IBMPlexSansThaiLooped-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Thai Looped';
+  src: url('../src/components/assets/fonts/IBMPlexSansThaiLooped-Regular.woff2') format('woff2'),
+      url('../src/components/assets/fonts/IBMPlexSansThaiLooped-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
